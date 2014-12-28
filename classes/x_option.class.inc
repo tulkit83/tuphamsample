@@ -12,7 +12,7 @@ class x_option extends Default_Table
         $this->dirname   = dirname(__file__);
 
         $this->dbms_engine = $GLOBALS['dbms'];
-        $this->dbname      = 'sample';
+        $this->dbname      = 'tuphamtest';
         $this->tablename   = 'x_option';
 
         // call this method to get original field specifications

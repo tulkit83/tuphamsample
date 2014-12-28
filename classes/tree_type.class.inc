@@ -12,7 +12,7 @@ class tree_type extends Default_table
         $this->dirname   = dirname(__file__);
 
         $this->dbms_engine = $GLOBALS['dbms'];
-        $this->dbname      = 'sample';
+        $this->dbname      = 'tuphamtest';
         $this->tablename   = 'tree_type';
 
         // call this method to get original field specifications

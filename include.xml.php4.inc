@@ -647,7 +647,7 @@ function addParams2XMLdoc ($doc, $root, $xsl_params)
 
     // insert various pieces of text
     if (dirname($_SERVER['PHP_SELF']) == '/sample') {
-        $xsl_params['application']               = 'sample';
+        $xsl_params['application']               = 'tuphamtest';
         $xsl_params['image-dir']                 = 'images/';
     } else {
         $xsl_params['image-dir']                 = '../images/';

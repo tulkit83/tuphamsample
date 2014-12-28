@@ -48,7 +48,7 @@ class mysql
     // ****************************************************************************
     // class constructor
     // ****************************************************************************
-    function mysql ($dbname='tuphamtest')
+    function mysql ($dbname=null)
     {
         if (!empty($dbname)) {
             $result = $this->connect($dbname) or trigger_error($this, E_USER_ERROR);

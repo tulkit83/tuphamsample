@@ -109,7 +109,7 @@
   <!-- show logon identity -->
   <xsl:if test="/root/params/text/logged-in-as">
     <!-- do not include this in the sample application -->
-    <xsl:if test="not(/root/params/application='sample')">
+    <xsl:if test="not(/root/params/application='tuphamtest')">
       <!-- do not include this in the logon screen -->
       <xsl:if test="not($mode='logon') and not ($mode='recover')">
         <div class="loggedinas">
@@ -401,7 +401,7 @@
 
             <!-- create a link for each element within menubar -->
             <xsl:choose>
-              <xsl:when test="/root/params/application='sample'">
+              <xsl:when test="/root/params/application='tuphamtest'">
                 <!-- this is for the sample application -->
                 <a href="{$help_root}/{@id}?{$session}"><xsl:value-of select="node()"/></a>
               </xsl:when>

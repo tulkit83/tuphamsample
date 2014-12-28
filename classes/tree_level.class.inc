@@ -12,7 +12,7 @@ class tree_level extends Default_Table
         $this->dirname   = dirname(__file__);
 
         $this->dbms_engine = $GLOBALS['dbms'];
-        $this->dbname      = 'sample';
+        $this->dbname      = 'tuphamtest';
         $this->tablename   = 'tree_level';
 
         // call this method to get original field specifications
