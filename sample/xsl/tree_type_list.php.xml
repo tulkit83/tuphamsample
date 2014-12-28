@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <tree_type>
+    <tree_type_id size="8" pkey="y" required="y">ORG</tree_type_id>
+    <tree_type_desc size="80" required="y">Organisation</tree_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </tree_type>
+  <tree_type>
+    <tree_type_id size="8" pkey="y" required="y">PROJ</tree_type_id>
+    <tree_type_desc size="80" required="y">Project</tree_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </tree_type>
+  <tree_type>
+    <tree_type_id size="8" pkey="y" required="y">TEST</tree_type_id>
+    <tree_type_desc size="80" required="y">Test</tree_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </tree_type>
+  <cssfiles>
+    <filename>HTTP://localhost/sample/css/default.css</filename>
+    <filename>HTTP://localhost/sample/style_custom.css</filename>
+  </cssfiles>
+  <actbar>
+    <button id="reset">RESET</button>
+  </actbar>
+  <menubar>
+    <button id="person_list.php">Person</button>
+    <button id="pers_type_list.php">Person Type</button>
+    <button id="option_list.php">Option</button>
+    <button id="tree_type_list.php" active="y">Tree Type</button>
+    <stack id="/sample/tree_type_list.php" active="y">Tree Type</stack>
+  </menubar>
+  <navbar>
+    <button id="task#tree_type_add.php" context_preselect="N">New</button>
+    <button id="task#tree_type_enq.php" context_preselect="Y">Read</button>
+    <button id="task#tree_type_upd.php" context_preselect="Y">Update</button>
+    <button id="task#tree_type_del.php" context_preselect="Y">Delete</button>
+    <button id="task#tree_level_list.php" context_preselect="Y">Tree Level</button>
+    <button id="task#tree_structure_list.php" context_preselect="Y">Tree Structure</button>
+    <button id="task#tree_type_search.php" context_preselect="N">Search</button>
+  </navbar>
+  <pagination>
+    <page id="main" numrows="3" curpage="1" lastpage="1"/>
+  </pagination>
+  <structure>
+    <main id="tree_type">
+      <columns>
+        <column width="5"/>
+        <column width="100"/>
+        <column width="350"/>
+        <column width="*"/>
+      </columns>
+      <row>
+        <cell label="Select"/>
+        <cell field="selectbox"/>
+      </row>
+      <row>
+        <cell label="Id"/>
+        <cell field="tree_type_id"/>
+      </row>
+      <row>
+        <cell label="Description"/>
+        <cell field="tree_type_desc"/>
+      </row>
+      <row>
+        <cell label=""/>
+        <cell field="null"/>
+      </row>
+    </main>
+  </structure>
+  <params>
+    <script>HTTP://localhost/sample/tree_type_list.php</script>
+    <script_short>tree_type_list</script_short>
+    <session_name>PHPSESSID</session_name>
+    <title>List TREE TYPE</title>
+    <version>sample v3.0.0</version>
+    <language>en</language>
+    <application>sample</application>
+    <image-dir>images/</image-dir>
+    <text>
+      <selection-lock>locked</selection-lock>
+      <page>Page</page>
+      <item>Item</item>
+      <of>of</of>
+      <first>FIRST</first>
+      <last>LAST</last>
+      <prev>PREV</prev>
+      <next>NEXT</next>
+      <show>show</show>
+      <help>help</help>
+      <page-created>page created in</page-created>
+      <seconds>seconds</seconds>
+      <select-all>select all</select-all>
+      <unselect-all>unselect all</unselect-all>
+    </text>
+    <mode>read</mode>
+    <taskid>tree_type_list.php</taskid>
+    <help_root>HTTP://localhost/sample</help_root>
+    <doc_root>HTTP://localhost/sample</doc_root>
+    <orderby>tree_type_id</orderby>
+    <order>asc</order>
+    <script_time>0.05500</script_time>
+  </params>
+</root>

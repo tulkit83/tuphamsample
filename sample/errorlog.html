@@ -1,0 +1,114 @@
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+</HEAD><h2>2014-12-28 06:52:59</h2><p>Fatal Error: mysqli_connect(): Access denied for user 'sample'@'localhost' (using password: YES).</p><p>Error in line 229 of file 'D:\xampp\htdocs\sample\dml.mysqli.class.inc'.</p><p>Script: /sample/person_list.php</p><p>Remote Address: ::1</p><p>Request URI: /sample/person_list.php</p>
+ <p>Page Stack:</p>
+<pre>
+  [0] /sample/person_list.php
+
+</pre>
+ <pre>
+0: array =
+  function: string = errorHandler
+  args: array =
+    0: integer = 2
+    1: string = mysqli::real_connect(): (HY000/1045): Access denied for user 'sample'@'localhost' (using password: YES)
+    2: string = D:\xampp\htdocs\sample\dml.mysqli.class.inc
+    3: integer = 229
+    4: object = mysql
+1: array =
+  file: string = D:\xampp\htdocs\sample\dml.mysqli.class.inc
+  line: integer = 229
+  function: string = real_connect
+  class: string = mysqli
+  type: string = ->
+  args: array =
+    0: string = localhost
+    1: string = sample
+    2: string = sample
+    3: string = 
+    4: integer = 0
+    5: string = 
+2: array =
+  file: string = D:\xampp\htdocs\sample\dml.mysqli.class.inc
+  line: integer = 56
+  function: string = connect
+  class: string = mysql
+  type: string = ->
+  args: array =
+    0: string = sample
+3: array =
+  file: string = D:\xampp\htdocs\sample\std.singleton.php5.inc
+  line: integer = 50
+  function: string = mysql
+  class: string = mysql
+  type: string = ->
+  args: array =
+    0: string = sample
+4: array =
+  file: string = D:\xampp\htdocs\sample\std.table.class.inc
+  line: integer = 6001
+  function: string = getInstance
+  class: string = singleton
+  type: string = ::
+  args: array =
+    0: string = mysql
+    1: string = sample
+5: array =
+  file: string = D:\xampp\htdocs\sample\std.table.class.inc
+  line: integer = 5643
+  function: string = _getDBMSengine
+  class: string = Default_Table
+  type: string = ->
+  args: array =
+    0: string = mysql
+    1: string = sample
+6: array =
+  file: string = D:\xampp\htdocs\sample\std.table.class.inc
+  line: integer = 1373
+  function: string = _dml_getData
+  class: string = Default_Table
+  type: string = ->
+  args: array =
+    0: string = null
+7: array =
+  file: string = D:\xampp\htdocs\sample\classes\pers_type.class.inc
+  line: integer = 36
+  function: string = getData
+  class: string = Default_Table
+  type: string = ->
+  args: array =
+    0: string = null
+8: array =
+  file: string = D:\xampp\htdocs\sample\classes\person.class.inc
+  line: integer = 107
+  function: string = getValRep
+  class: string = pers_type
+  type: string = ->
+  args: array =
+    0: string = pers_type_id
+9: array =
+  file: string = D:\xampp\htdocs\sample\std.table.class.inc
+  line: integer = 1618
+  function: string = _cm_getExtraData
+  class: string = person
+  type: string = ->
+  args: array =
+    0: string = null
+    1: array =
+10: array =
+  file: string = D:\xampp\htdocs\sample\std.list1.inc
+  line: integer = 55
+  function: string = getExtraData
+  class: string = Default_Table
+  type: string = ->
+  args: array =
+    0: string = null
+11: array =
+  file: string = D:\xampp\htdocs\sample\person_list.php
+  line: integer = 16
+  args: array =
+    0: string = D:\xampp\htdocs\sample\std.list1.inc
+  function: string = require
+
+</pre>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <person>
+    <person_id size="8" pkey="y" required="y">PA</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">DOLLY</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">1</node_id>
+    <nat_ins_no size="10" required="y">PA</nat_ins_no>
+    <first_name size="20" required="y">Pamela</first_name>
+    <last_name size="30" required="y">Anderson</last_name>
+    <initials size="6">PA</initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">LIB</star_sign>
+    <email_addr size="50">pam@hollywood.com</email_addr>
+    <value1 size="6">36</value1>
+    <value2 size="12">1234567.89</value2>
+    <start_date size="12" required="y">01 Jul 1980</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95">pictures/female2.jpg</picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">14 Jul 2005 19:45:09</revised_date>
+    <revised_user size="16" noedit="y">127.0.0.1</revised_user>
+    <pers_type_desc noedit="y">Dolly Bird</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">KB</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">DOLLY</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">26</node_id>
+    <nat_ins_no size="10" required="y">KB</nat_ins_no>
+    <first_name size="20" required="y">Kim</first_name>
+    <last_name size="30" required="y">Basinger</last_name>
+    <initials size="6">KB</initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">SAG</star_sign>
+    <email_addr size="50"></email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">01 Jan 1990</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95">pictures/female2.jpg</picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">17 Jul 2005 19:58:18</revised_date>
+    <revised_user size="16" noedit="y">127.0.0.1</revised_user>
+    <pers_type_desc noedit="y">Dolly Bird</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">FB</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">ANON</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">47</node_id>
+    <nat_ins_no size="10" required="y">FB</nat_ins_no>
+    <first_name size="20" required="y">Fred</first_name>
+    <last_name size="30" required="y">Bloggs</last_name>
+    <initials size="6"></initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">VIR</star_sign>
+    <email_addr size="50"></email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">01 Jan 2002</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95">pictures/clown.jpg</picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">10 Mar 2005 21:40:32</revised_date>
+    <revised_user size="16" noedit="y">127.0.0.1</revised_user>
+    <pers_type_desc noedit="y">Anne Oni Mouse</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">BB</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">CARTOO</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">53</node_id>
+    <nat_ins_no size="10" required="y">BB</nat_ins_no>
+    <first_name size="20" required="y">Billy</first_name>
+    <last_name size="30" required="y">Bunter</last_name>
+    <initials size="6"></initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">CAN</star_sign>
+    <email_addr size="50">bb@fatman.com</email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">01 Dec 2002</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95"></picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">30 Aug 2004 16:13:12</revised_date>
+    <revised_user size="16" noedit="y">AJM</revised_user>
+    <pers_type_desc noedit="y">Cartoon Character</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">CC</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">CARTOO</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">4</node_id>
+    <nat_ins_no size="10" required="y">CC</nat_ins_no>
+    <first_name size="20" required="y">Charlie</first_name>
+    <last_name size="30" required="y">Chan</last_name>
+    <initials size="6"></initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">CAN</star_sign>
+    <email_addr size="50"></email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">01 Jan 1953</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95"></picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">30 Aug 2004 16:13:25</revised_date>
+    <revised_user size="16" noedit="y">AJM</revised_user>
+    <pers_type_desc noedit="y">Cartoon Character</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">WC</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">CARTOO</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">15</node_id>
+    <nat_ins_no size="10" required="y">WC</nat_ins_no>
+    <first_name size="20" required="y">Wiley</first_name>
+    <last_name size="30" required="y">Coyote</last_name>
+    <initials size="6"></initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">SAG</star_sign>
+    <email_addr size="50">wileycoyote@cartoonland.com</email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">01 Jan 1950</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95"></picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">30 Aug 2004 16:13:40</revised_date>
+    <revised_user size="16" noedit="y">AJM</revised_user>
+    <pers_type_desc noedit="y">Cartoon Character</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">DD</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">CARTOO</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">19</node_id>
+    <nat_ins_no size="10" required="y">DD</nat_ins_no>
+    <first_name size="20" required="y">Donald</first_name>
+    <last_name size="30" required="y">Duck</last_name>
+    <initials size="6"></initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">SAG</star_sign>
+    <email_addr size="50"></email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">02 Feb 1998</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95"></picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">30 Aug 2004 16:13:54</revised_date>
+    <revised_user size="16" noedit="y">AJM</revised_user>
+    <pers_type_desc noedit="y">Cartoon Character</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">EE</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">FUNNY</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">20</node_id>
+    <nat_ins_no size="10" required="y">EE</nat_ins_no>
+    <first_name size="20" required="y">Edna</first_name>
+    <last_name size="30" required="y">Everage</last_name>
+    <initials size="6">ee</initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">ARI</star_sign>
+    <email_addr size="50"></email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">01 Jan 1990</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95"></picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">30 Aug 2004 16:14:08</revised_date>
+    <revised_user size="16" noedit="y">AJM</revised_user>
+    <pers_type_desc noedit="y">Funny Person/Comedian</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">SF</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">DOLLY</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">2</node_id>
+    <nat_ins_no size="10" required="y">SF</nat_ins_no>
+    <first_name size="20" required="y">Sam</first_name>
+    <last_name size="30" required="y">Fox</last_name>
+    <initials size="6">sf</initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">VIR</star_sign>
+    <email_addr size="50"></email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">01 Jan 1990</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95"></picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">30 Aug 2004 16:14:23</revised_date>
+    <revised_user size="16" noedit="y">AJM</revised_user>
+    <pers_type_desc noedit="y">Dolly Bird</pers_type_desc>
+  </person>
+  <person>
+    <person_id size="8" pkey="y" required="y">BG</person_id>
+    <pers_type_id size="6" required="y" control="dropdown" optionlist="pers_type_id">EXEC</pers_type_id>
+    <node_id size="5" control="popup" foreign_field="node_desc" task_id="task#x_tree_structure(popup)">3</node_id>
+    <nat_ins_no size="10" required="y">WG</nat_ins_no>
+    <first_name size="20" required="y">Bill</first_name>
+    <last_name size="30" required="y">Gates</last_name>
+    <initials size="6">wg</initials>
+    <star_sign size="3" required="y" control="dropdown" optionlist="star_sign">CAN</star_sign>
+    <email_addr size="50"></email_addr>
+    <value1 size="6"></value1>
+    <value2 size="12"></value2>
+    <start_date size="12" required="y">01 Jan 1990</start_date>
+    <end_date size="12"></end_date>
+    <picture size="40" control="filepicker" task_id="task#x_person(filepicker)" image="y" imagewidth="75" imageheight="95"></picture>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">30 Aug 2004 16:14:36</revised_date>
+    <revised_user size="16" noedit="y">AJM</revised_user>
+    <pers_type_desc noedit="y">Executive</pers_type_desc>
+  </person>
+  <lookup>
+    <star_sign>
+      <option id=""> </option>
+      <option id="ARI">Aries</option>
+      <option id="AQU">Aquarius</option>
+      <option id="CAN">Cancer</option>
+      <option id="CAP">Capricorn</option>
+      <option id="GEM">Gemini</option>
+      <option id="LEO">Leo</option>
+      <option id="LIB">Libra</option>
+      <option id="PIS">Pisces</option>
+      <option id="SAG">Sagittarius</option>
+      <option id="SCO">Scorpio</option>
+      <option id="TAU">Taurus</option>
+      <option id="VIR">Virgo</option>
+    </star_sign>
+    <pers_type_id>
+      <option id=""> </option>
+      <option id="ACTOR">Actor/Artiste</option>
+      <option id="ANON">Anne Oni Mouse</option>
+      <option id="BORING">Boring Person</option>
+      <option id="CARTOO">Cartoon Character</option>
+      <option id="DOLLY">Dolly Bird</option>
+      <option id="EXEC">Executive</option>
+      <option id="FAMOUS">Famous Person</option>
+      <option id="FILM">Film Star</option>
+      <option id="FUNNY">Funny Person/Comedian</option>
+      <option id="GENFAC">General Factotum</option>
+      <option id="HISTOR">Historical Figure</option>
+      <option id="IGTWIT">Ignorant Twit</option>
+      <option id="JAMMY">Jammy Beggar</option>
+      <option id="KLEPTO">Kleptomaniac</option>
+      <option id="LAME">Lame Brain</option>
+      <option id="LAYABO">Layabout</option>
+      <option id="LAZY">Lazy Bones</option>
+      <option id="MAD">Mad as a Hatter</option>
+      <option id="MOANER">Moaning Minnie</option>
+      <option id="NINNY">Nincompoop</option>
+      <option id="OBNOXI">Obnoxious Oik</option>
+      <option id="ONE">One Sandwich Short of a Picnic</option>
+      <option id="PP">Party Pooper</option>
+      <option id="QP">Of Questionable Parentage</option>
+    </pers_type_id>
+  </lookup>
+  <cssfiles>
+    <filename>HTTP://localhost/sample/css/default.css</filename>
+    <filename>HTTP://localhost/sample/style_custom.css</filename>
+  </cssfiles>
+  <actbar>
+    <button id="reset">RESET</button>
+  </actbar>
+  <menubar>
+    <button id="person_list.php" active="y">Person</button>
+    <button id="pers_type_list.php">Person Type</button>
+    <button id="option_list.php">Option</button>
+    <button id="tree_type_list.php">Tree Type</button>
+    <stack id="/sample/person_list.php" active="y">Person</stack>
+  </menubar>
+  <navbar>
+    <button id="task#person_add.php" context_preselect="N">New</button>
+    <button id="task#person_enq.php" context_preselect="Y">Read</button>
+    <button id="task#person_upd.php" context_preselect="Y">Update</button>
+    <button id="task#person_del.php" context_preselect="Y">Delete</button>
+    <button id="task#person_search.php" context_preselect="N">Search</button>
+    <button id="task#pers_opt_xref_link(a).php" context_preselect="Y">Maintain Options</button>
+    <button id="task#pers_opt_xref_list(a).php" context_preselect="Y">List Options</button>
+  </navbar>
+  <pagination>
+    <page id="main" numrows="32" curpage="1" lastpage="4"/>
+  </pagination>
+  <structure>
+    <main id="person">
+      <columns>
+        <column width="5"/>
+        <column width="70"/>
+        <column width="100"/>
+        <column width="100"/>
+        <column width="100"/>
+        <column width="*"/>
+      </columns>
+      <row>
+        <cell label="Select"/>
+        <cell field="selectbox"/>
+      </row>
+      <row>
+        <cell label="Id"/>
+        <cell field="person_id"/>
+      </row>
+      <row>
+        <cell label="First Name"/>
+        <cell field="first_name"/>
+      </row>
+      <row>
+        <cell label="Last Name"/>
+        <cell field="last_name"/>
+      </row>
+      <row>
+        <cell label="Star Sign"/>
+        <cell field="star_sign"/>
+      </row>
+      <row>
+        <cell label="Person Type"/>
+        <cell field="pers_type_desc"/>
+      </row>
+    </main>
+  </structure>
+  <params>
+    <script>HTTP://localhost/sample/person_list.php</script>
+    <script_short>person_list</script_short>
+    <session_name>PHPSESSID</session_name>
+    <title>List PERSON</title>
+    <version>sample v3.0.0</version>
+    <language>en</language>
+    <application>sample</application>
+    <image-dir>images/</image-dir>
+    <text>
+      <selection-lock>locked</selection-lock>
+      <page>Page</page>
+      <item>Item</item>
+      <of>of</of>
+      <first>FIRST</first>
+      <last>LAST</last>
+      <prev>PREV</prev>
+      <next>NEXT</next>
+      <show>show</show>
+      <help>help</help>
+      <page-created>page created in</page-created>
+      <seconds>seconds</seconds>
+      <select-all>select all</select-all>
+      <unselect-all>unselect all</unselect-all>
+    </text>
+    <mode>read</mode>
+    <taskid>person_list.php</taskid>
+    <help_root>HTTP://localhost/sample</help_root>
+    <doc_root>HTTP://localhost/sample</doc_root>
+    <orderby>last_name</orderby>
+    <order>asc</order>
+    <script_time>1293.60892</script_time>
+  </params>
+</root>

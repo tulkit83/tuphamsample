@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">ALBATROS</option_id>
+    <option_desc size="40" required="y">Albatross</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">ANACONDA</option_id>
+    <option_desc size="40" required="y">Anaconda</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">BARACUDA</option_id>
+    <option_desc size="40" required="y">Baracuda</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">BUMBLE</option_id>
+    <option_desc size="40" required="y">Bumble Bee</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">CHINCHIL</option_id>
+    <option_desc size="40" required="y">Chinchilla</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">CÔTE</option_id>
+    <option_desc size="40" required="y">Côte d'Ivoire</option_desc>
+    <created_date size="20" noedit="y">03 Feb 2005 18:40:45</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">CROCODIL</option_id>
+    <option_desc size="40" required="y">Crocodile</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">DINOSAUR</option_id>
+    <option_desc size="40" required="y">Dinosaur</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">DUCKBILL</option_id>
+    <option_desc size="40" required="y">Duck-Billed Platypus</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </x_option>
+  <x_option>
+    <option_id size="8" pkey="y" required="y">ELEPHANT</option_id>
+    <option_desc size="40" required="y">Eléphânt</option_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y">27 Jun 2005 12:39:06</revised_date>
+    <revised_user size="16" noedit="y">AJM</revised_user>
+  </x_option>
+  <cssfiles>
+    <filename>HTTP://localhost/sample/css/default.css</filename>
+    <filename>HTTP://localhost/sample/style_custom.css</filename>
+  </cssfiles>
+  <actbar>
+    <button id="reset">RESET</button>
+  </actbar>
+  <menubar>
+    <button id="person_list.php">Person</button>
+    <button id="pers_type_list.php">Person Type</button>
+    <button id="option_list.php" active="y">Option</button>
+    <button id="tree_type_list.php">Tree Type</button>
+    <stack id="/sample/option_list.php" active="y">Option</stack>
+  </menubar>
+  <navbar>
+    <button id="task#option_add.php" context_preselect="N">New</button>
+    <button id="task#option_enq.php" context_preselect="Y">Read</button>
+    <button id="task#option_upd.php" context_preselect="Y">Update</button>
+    <button id="task#option_del.php" context_preselect="Y">Delete</button>
+    <button id="task#pers_opt_xref_link(b).php" context_preselect="Y">Maintain Person</button>
+    <button id="task#pers_opt_xref_list(b).php" context_preselect="Y">List Person</button>
+    <button id="task#option_search.php" context_preselect="N">Search</button>
+  </navbar>
+  <pagination>
+    <page id="main" numrows="53" curpage="1" lastpage="6"/>
+  </pagination>
+  <structure>
+    <main id="x_option">
+      <columns>
+        <column width="5"/>
+        <column width="100"/>
+        <column width="350"/>
+        <column width="*"/>
+      </columns>
+      <row>
+        <cell label="Select"/>
+        <cell field="selectbox"/>
+      </row>
+      <row>
+        <cell label="Id"/>
+        <cell field="option_id"/>
+      </row>
+      <row>
+        <cell label="Description"/>
+        <cell field="option_desc"/>
+      </row>
+      <row>
+        <cell label=""/>
+        <cell field="null"/>
+      </row>
+    </main>
+  </structure>
+  <params>
+    <script>HTTP://localhost/sample/option_list.php</script>
+    <script_short>option_list</script_short>
+    <session_name>PHPSESSID</session_name>
+    <title>List OPTION</title>
+    <version>sample v3.0.0</version>
+    <language>en</language>
+    <application>sample</application>
+    <image-dir>images/</image-dir>
+    <text>
+      <selection-lock>locked</selection-lock>
+      <page>Page</page>
+      <item>Item</item>
+      <of>of</of>
+      <first>FIRST</first>
+      <last>LAST</last>
+      <prev>PREV</prev>
+      <next>NEXT</next>
+      <show>show</show>
+      <help>help</help>
+      <page-created>page created in</page-created>
+      <seconds>seconds</seconds>
+      <select-all>select all</select-all>
+      <unselect-all>unselect all</unselect-all>
+    </text>
+    <mode>read</mode>
+    <taskid>option_list.php</taskid>
+    <help_root>HTTP://localhost/sample</help_root>
+    <doc_root>HTTP://localhost/sample</doc_root>
+    <orderby>option_id</orderby>
+    <order>asc</order>
+    <script_time>0.05200</script_time>
+  </params>
+</root>

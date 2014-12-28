@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">ACTOR</pers_type_id>
+    <pers_type_desc size="40" required="y">Actor/Artiste</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">ANON</pers_type_id>
+    <pers_type_desc size="40" required="y">Anne Oni Mouse</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">BORING</pers_type_id>
+    <pers_type_desc size="40" required="y">Boring Person</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">CARTOO</pers_type_id>
+    <pers_type_desc size="40" required="y">Cartoon Character</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">DOLLY</pers_type_id>
+    <pers_type_desc size="40" required="y">Dolly Bird</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">EXEC</pers_type_id>
+    <pers_type_desc size="40" required="y">Executive</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">FAMOUS</pers_type_id>
+    <pers_type_desc size="40" required="y">Famous Person</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">FILM</pers_type_id>
+    <pers_type_desc size="40" required="y">Film Star</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">FUNNY</pers_type_id>
+    <pers_type_desc size="40" required="y">Funny Person/Comedian</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <pers_type>
+    <pers_type_id size="6" pkey="y" required="y">GENFAC</pers_type_id>
+    <pers_type_desc size="40" required="y">General Factotum</pers_type_desc>
+    <created_date size="20" noedit="y">01 Jan 2003 12:00:00</created_date>
+    <created_user size="16" noedit="y">AJM</created_user>
+    <revised_date size="20" noedit="y"></revised_date>
+    <revised_user size="16" noedit="y"></revised_user>
+  </pers_type>
+  <cssfiles>
+    <filename>HTTP://localhost/sample/css/default.css</filename>
+    <filename>HTTP://localhost/sample/style_custom.css</filename>
+  </cssfiles>
+  <actbar>
+    <button id="reset">RESET</button>
+  </actbar>
+  <menubar>
+    <button id="person_list.php">Person</button>
+    <button id="pers_type_list.php" active="y">Person Type</button>
+    <button id="option_list.php">Option</button>
+    <button id="tree_type_list.php">Tree Type</button>
+    <stack id="/sample/pers_type_list.php" active="y">Person Type</stack>
+  </menubar>
+  <navbar>
+    <button id="task#pers_type_add.php" context_preselect="N">New</button>
+    <button id="task#pers_type_enq.php" context_preselect="Y">Read</button>
+    <button id="task#pers_type_upd.php" context_preselect="Y">Update</button>
+    <button id="task#pers_type_del.php" context_preselect="Y">Delete</button>
+    <button id="task#person_list(a).php" context_preselect="Y">Person</button>
+    <button id="task#pers_type_search.php" context_preselect="N">Search</button>
+  </navbar>
+  <pagination>
+    <page id="main" numrows="24" curpage="1" lastpage="3"/>
+  </pagination>
+  <structure>
+    <main id="pers_type">
+      <columns>
+        <column width="10"/>
+        <column width="75"/>
+        <column width="350"/>
+        <column width="*"/>
+      </columns>
+      <row>
+        <cell label="Select"/>
+        <cell field="selectbox"/>
+      </row>
+      <row>
+        <cell label="Id"/>
+        <cell field="pers_type_id"/>
+      </row>
+      <row>
+        <cell label="Description"/>
+        <cell field="pers_type_desc"/>
+      </row>
+      <row>
+        <cell label=""/>
+        <cell field="null"/>
+      </row>
+    </main>
+  </structure>
+  <params>
+    <script>HTTP://localhost/sample/pers_type_list.php</script>
+    <script_short>pers_type_list</script_short>
+    <session_name>PHPSESSID</session_name>
+    <title>List PERSON TYPE</title>
+    <version>sample v3.0.0</version>
+    <language>en</language>
+    <application>sample</application>
+    <image-dir>images/</image-dir>
+    <text>
+      <selection-lock>locked</selection-lock>
+      <page>Page</page>
+      <item>Item</item>
+      <of>of</of>
+      <first>FIRST</first>
+      <last>LAST</last>
+      <prev>PREV</prev>
+      <next>NEXT</next>
+      <show>show</show>
+      <help>help</help>
+      <page-created>page created in</page-created>
+      <seconds>seconds</seconds>
+      <select-all>select all</select-all>
+      <unselect-all>unselect all</unselect-all>
+    </text>
+    <mode>read</mode>
+    <taskid>pers_type_list.php</taskid>
+    <help_root>HTTP://localhost/sample</help_root>
+    <doc_root>HTTP://localhost/sample</doc_root>
+    <orderby>pers_type_id</orderby>
+    <order>asc</order>
+    <script_time>0.70104</script_time>
+  </params>
+</root>
