@@ -1941,15 +1941,15 @@ if (!function_exists('getBrowserVersion')) {
     {
         $result = '';
 
-        if ($browser = get_browser(null, true)) {
-            $result = $browser['browser'].$browser['majorver'];
-        } else {
+        //if ($browser = get_browser(null, true)) {
+            //$result = $browser['browser'].$browser['majorver'];
+        //} else {
             include_once('browser_detection.inc');
             if (function_exists('browser_detection')) {
                 $browser = browser_detection('full');
                 $result = $browser[0].(int)$browser[1];
             } // if
-        } // if
+        //} // if
 
         return strtolower($result);
 
