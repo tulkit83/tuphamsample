@@ -25,8 +25,8 @@ if ($GLOBALS['dbms'] == 'oracle') {
     // of schemas within that database.
     // When using PostgreSQL you must supply a value for $PGSQL_dbname for the single database
     // connection, and what is known as 'dbname' to MySQL becomes 'schema' to PostgreSQL.
-    $GLOBALS['dbhost']       = 'localhost';
-    $GLOBALS['PGSQL_dbname'] = 'sample';
+    $GLOBALS['dbhost']       = 'ap-cdbr-azure-east-c.cloudapp.net';
+    $GLOBALS['PGSQL_dbname'] = 'tuphamtest';
 
 } else {
     $GLOBALS['dbhost'] = 'localhost';
@@ -37,8 +37,8 @@ if ($GLOBALS['dbms'] == 'oracle') {
 
 if (preg_match('/^(127.0.0.1|localhost|desktop|laptop)$/i', $_SERVER['SERVER_NAME'])) {
     // this is for my PC
-    $dbusername = 'root';
-    $dbuserpass = '';
+    $dbusername = 'b858f71b8d7525';
+    $dbuserpass = '8c38271a';
     $dbprefix   = null;
     $http_server         = null;
     $https_server        = null;
